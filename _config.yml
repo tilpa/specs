@@ -9,10 +9,8 @@
 title: specs
 description: > # this means to ignore newlines until "baseurl:"
   A bunch of ideas that you can use as practice for coding
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/specs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: nxtonic
-github_username:  nxtonic
 
 # Build settings
 markdown: kramdown
