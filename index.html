@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">
+          {% if post.difficulty %} <span class="post-difficulty {{ post.difficulty }}"></span> {% endif %} &bull;
+          {{ post.date | date: "%b %-d, %Y" }}
+          {% if post.author %} &bull; by {{ post.author }} {% endif %}
+        </span>
+        {% if post.excerpt %}
+          <div class="post-excerpt">
+            {{ post.excerpt | truncate: 140 }}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
