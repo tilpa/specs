@@ -10,7 +10,7 @@ layout: default
         <span class="post-meta">
           {% if post.difficulty %} <span class="post-difficulty {{ post.difficulty }}"></span> {% endif %} &bull;
           {{ post.date | date: "%b %-d, %Y" }}
-          {% if post.author %} &bull; by {{ post.author }} {% endif %}
+          {% if post.author %} &bull; by <a href="https://github.com/{{ post.author }}">@{{ post.author }}</a> {% endif %}
         </span>
         {% if post.excerpt %}
           <div class="post-excerpt">

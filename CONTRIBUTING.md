@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contributing
+title: contributing
 permalink: /contributing/
 ---
 <br/>
