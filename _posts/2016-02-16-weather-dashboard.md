@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "weather-dashboard"
-author: anon
+author: nxtonic
 difficulty: medium
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "image-slider"
-author: anon
+author: nxtonic
 difficulty: easy
 ---
 
