@@ -20,3 +20,8 @@ Level 2
 
   - have a marker which shows which picture is currently being viewed in the sequence
   - be pretty and animate between images
+
+Level 3
+
+  - have an option for an animated clock to show the time until next photo transition
+  - have the ability to pause scrolling through images
