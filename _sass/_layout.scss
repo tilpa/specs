@@ -151,13 +151,14 @@
     color: $background-color;
     margin-right: 0.1em;
     box-sizing: border-box;
+    padding: 0 0.35em;
     display: inline-block;
     clear: both;
     border-radius: 4px;
+    background-color: #f4f4f4;
     text-align: center;
     font-weight: 700;
   }
-
 
   &.easy::after {
     content: "#";
@@ -172,6 +173,11 @@
   &.hard::after {
     content: "###";
     color: #eb5a46;
+  }
+
+  &.extreme::after {
+    content: "####";
+    color: #cc52eb;
   }
 }
 
@@ -238,5 +244,10 @@
 
     li {
       margin: 0.75em 0;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: $spacing-unit * 0.5;
     }
 }

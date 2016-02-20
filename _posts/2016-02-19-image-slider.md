@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "image-slider"
+title: image-slider
 author: nxtonic
 difficulty: easy
 ---
